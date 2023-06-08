@@ -9,12 +9,14 @@ let zSpacing = -1000,
 window.onscroll = function() {
 
 	let top = document.documentElement.scrollTop,
-			delta = lastPos - top 
+			delta = lastPos - top
+ 
 
 	lastPos = top
 
 	frames.forEach(function(n, i) {
-		zVals.push((i * zSpacing) + zSpacing) - 300
+		zVals.push((i * zSpacing) + zSpacing)
+ - 300
 		zVals[i] += delta * -9
 		let frame = frames[i],
 				transform = `translateZ(${zVals[i]}px)`,
