@@ -172,5 +172,5 @@ video.frame-mediaaa {
 	transition-timing-function: linear;
     transition-duration: 0.4s;
     transition-property: color;
-	filter: blur(2.5rem); saturate(10);
+	filter: blur(2.5rem); saturate(25);
 }
