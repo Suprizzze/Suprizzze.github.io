@@ -16,7 +16,11 @@
 body {
 	scrollbar-width: none; /* Firefox */
 }
-body::-webkit-scrollbar { 
+body::-webkit-scrollbar {
+
+  display: none;
+
+} { 
 	display: none; /* Safari and Chrome */
 }
 
