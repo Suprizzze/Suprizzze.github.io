@@ -25,10 +25,7 @@ window.onscroll = function() {
 
 }
 
-scrollTargetEl.scrollIntoView({
-  behavior: 'smooth',
-  block: 'start',
-});
+window.scrollTo(0, 1)
 
 // Audio
 
