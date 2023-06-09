@@ -18,7 +18,7 @@ window.onscroll = function() {
 		zVals[i] += delta * -8.9
 		let frame = frames[i],
 				transform = `translateZ(${zVals[i]}px)`,
-				opacity = zVals[i] < Math.abs(zSpacing) / 1.28 ? 1 : 0
+				opacity = zVals[i] < Math.abs(zSpacing) / 1.2 ? 1 : 0
 		frame.setAttribute('style', `transform: ${transform}; opacity: ${opacity}`)
 	})
 
