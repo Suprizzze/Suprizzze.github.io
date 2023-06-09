@@ -4,12 +4,12 @@
 	box-sizing: border-box;
 }
 :root {
-	--index: calc(6vw + 6vh);
+	--index: calc(4vw + 4vh);
 	--gutter: 30px;
 	--side-small: 3.25;
 	--side-big: 4.5;
 	--depth: 4000px;
-	--transition: 1.10s cubic-bezier(.075, .5, 0, 1)
+	--transition: 1.40s cubic-bezier(.075, .5, 0, 1)
 }
 
 /* Скрываем Scrollbar */
@@ -149,7 +149,7 @@ video.frame-mediaaa {
 
 .text-rightt > * {
 	position: relative;
-	left: 13vw;
+	left: 8vw;
 }
 
 .text-left > * {
@@ -163,7 +163,7 @@ video.frame-mediaaa {
 	margin-top: 1vh;
 }
 .frame p1 {
-  font-size: 10px;
+  font-size: 5px;
 	max-width: 38vw;
 	margin-top: 3vh;
 }
