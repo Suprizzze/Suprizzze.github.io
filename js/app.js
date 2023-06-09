@@ -15,7 +15,7 @@ window.onscroll = function() {
 	lastPos = top
 
 	frames.forEach(function(n, i) {
-		zVals.push((i * zSpacing) + zSpacing)
+		zVals.push((i * zSpacing) + zSpacing)-300
 		zVals[i] += delta * -9
 		let frame = frames[i],
 				transform = `translateZ(${zVals[i]}px)`,
