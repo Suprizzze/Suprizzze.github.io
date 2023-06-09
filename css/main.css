@@ -58,10 +58,10 @@ body {
 	font-weight: 300;
 }
 .container {
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	height: 50%;
 	position: fixed;
-	perspective: 1500px;
+	perspective: 1000px;
 }
 .gallery {
 	transform-style: preserve-3d;
