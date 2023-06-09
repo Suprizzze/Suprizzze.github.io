@@ -4,12 +4,12 @@
 	box-sizing: border-box;
 }
 :root {
-	--index: calc(1vw + 1vh);
+	--index: calc(2vw + 2vh);
 	--gutter: 30px;
-	--side-small: 26;
-	--side-big: 36;
+	--side-small: 6.5;
+	--side-big: 9;
 	--depth: 4000px;
-	--transition: .75s cubic-bezier(.075, .5, 0, 1)
+	--transition: 1.10s cubic-bezier(.075, .5, 0, 1)
 }
 
 /* Скрываем Scrollbar */
@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 body {
 	background-color: #000;
 	color: #fff;
-	font-size: calc(var(--index) * .8);
+	font-size: calc(var(--index) * .1);
 	font-family: raleway_c, sans-serif;
 	line-height: 1.75;
 	height: var(--depth);
@@ -93,8 +93,11 @@ h2 {
 
 .frame h2 {
 	text-align: center;
-	font-size: calc(var(--index) * 2.3);
+	font-size: calc(var(--index) * 1);
 }
+
+
+
 .frame-media {
 	position: relative;
 	width: calc(var(--index) * var(--side-small));
@@ -151,7 +154,7 @@ video.frame-mediaaa {
 	right: 18vw;
 }
 .frame h3 {
-	font-size: calc(var(--index) * 2.3);
+	font-size: calc(var(--index) * 1.1);
 }
 .frame p {
   font-size: 11px;
@@ -164,8 +167,8 @@ video.frame-mediaaa {
 	margin-top: 3vh;
 }
 .frame p2 {
-  font-size: 10px;
-	max-width: 38vw;
+  font-size: 40px;
+	width: min-content;
 	margin-top: 3vh;
 }
 
