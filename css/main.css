@@ -24,6 +24,20 @@ body::-webkit-scrollbar {
 	display: none; /* Safari and Chrome */
 }
 
+.hover .element:hover {
+
+  box-shadow: 1px 1px 1px #000;
+
+}
+
+.disable-hover {
+
+  pointer-events: none;
+
+}
+
+
+
 @font-face {
 	font-family: raleway_c;
 	src: url(../fonts/CormorantInfant-Light.woff);
