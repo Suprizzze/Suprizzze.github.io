@@ -4,12 +4,12 @@
 	box-sizing: border-box;
 }
 :root {
-	--index: calc(4vw + 4vh);
+	--index: calc(1vw + 1vh);
 	--gutter: 30px;
-	--side-small: 3.25;
-	--side-big: 4.5;
+	--side-small: 26;
+	--side-big: 36;
 	--depth: 4000px;
-	--transition: 1.80s cubic-bezier(.075, .5, 0, 1)
+	--transition: .75s cubic-bezier(.075, .5, 0, 1)
 }
 
 /* Скрываем Scrollbar */
@@ -93,11 +93,11 @@ h2 {
 
 .frame h2 {
 	text-align: center;
-	font-size: calc(var(--index) * 0.2);
+	font-size: calc(var(--index) * 2.3);
 }
 
 .frame h3 {
-	font-size: calc(var(--index) * 0.2);
+	font-size: calc(var(--index) * 2.3);
 }
 
 
@@ -144,33 +144,23 @@ video.frame-mediaaa {
 
 .text-right > * {
 	position: relative;
-	left: 15vw;
+	left: 18vw;
 }
 
 .text-rightt > * {
 	position: relative;
-	left: 3vw;
+	left: 7vw;
 }
 
 .text-left > * {
 	position: relative;
-	right: 15vw;
+	right: 18vw;
 }
 
 .frame p {
-  font-size: 5px;
-	max-width: 28vw;
-	margin-top: 1vh;
-}
-.frame p1 {
-  font-size: 5px;
+  font-size: 11px;
 	max-width: 38vw;
-	margin-top: 3vh;
-}
-.frame p2 {
-  font-size: 40px;
-	width: min-content;
-	margin-top: 3vh;
+	margin-top: 1vh;
 }
 
 .soundbutton {
