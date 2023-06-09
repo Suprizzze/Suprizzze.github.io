@@ -28,17 +28,13 @@ window.scrollTo(0, 1)
 
 // Audio
 
-
 let soundButton = document.querySelector('.soundbutton'),
 		audio = document.querySelector('.audio')
-
-sou = addEventListener("scroll", (event) => {audio.play()});
 
 soundButton.addEventListener('click', e => {
 	soundButton.classList.toggle('paused')
 	audio.paused ? audio.play() : audio.pause()
 })
-
 
 window.onfocus = function() {
 	soundButton.classList.contains('paused') ? audio.pause() : audio.play()
