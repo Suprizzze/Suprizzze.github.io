@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 :root {
-	--index: calc(4vw + 4vh);
+	--index: calc(6vw + 6vh);
 	--gutter: 30px;
 	--side-small: 3.25;
 	--side-big: 4.5;
@@ -93,9 +93,12 @@ h2 {
 
 .frame h2 {
 	text-align: center;
-	font-size: calc(var(--index) * 1);
+	font-size: calc(var(--index) * 0.5);
 }
 
+.frame h3 {
+	font-size: calc(var(--index) * 0.5);
+}
 
 
 .frame-media {
@@ -146,16 +149,14 @@ video.frame-mediaaa {
 
 .text-rightt > * {
 	position: relative;
-	left: 12vw;
+	left: 13vw;
 }
 
 .text-left > * {
 	position: relative;
 	right: 15vw;
 }
-.frame h3 {
-	font-size: calc(var(--index) * 0.5);
-}
+
 .frame p {
   font-size: 5px;
 	max-width: 38vw;
