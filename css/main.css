@@ -168,6 +168,6 @@ video.frame-mediaaa {
 	transform: rotate(-90deg)!important;
 	top: -900vh;
 	left: -10vh;
-	filter: blur(0rem); saturate(0);
+	filter: blur(5rem); saturate(10);
 
 }

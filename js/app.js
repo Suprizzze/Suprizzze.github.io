@@ -10,16 +10,15 @@ window.onscroll = function() {
 
 	let top = document.documentElement.scrollTop,
 			delta = lastPos - top
- 
 
 	lastPos = top
 
 	frames.forEach(function(n, i) {
-		zVals.push((i * zSpacing) + zSpacing)-300
-		zVals[i] += delta * -9
+		zVals.push((i * zSpacing) + zSpacing)
+		zVals[i] += delta * -8.9
 		let frame = frames[i],
 				transform = `translateZ(${zVals[i]}px)`,
-				opacity = zVals[i] < Math.abs(zSpacing) / 1.2 ? 1 : 0
+				opacity = zVals[i] < Math.abs(zSpacing) / 1.28 ? 1 : 0
 		frame.setAttribute('style', `transform: ${transform}; opacity: ${opacity}`)
 	})
 
