@@ -158,17 +158,27 @@ video.frame-mediaaa {
 }
 
 .frame p {
-  font-size: 11px;
+  font-size: 12px;
 	max-width: 38vw;
 	margin-top: 1vh;
 }
 
+
+.frame p1 {
+  font-size: 14px;
+	max-width: 40vw;
+	margin-top: 1vh;
+}
+
+
+
+
 .soundbutton {
 	position: fixed;
-	bottom: 5vh;
+	bottom: 7vh;
 	right: 5vw;
 	cursor: pointer;
-	width: 24px;
+	width: 40px;
 	transition: .25s ease;
 }
 .soundbutton.paused {
